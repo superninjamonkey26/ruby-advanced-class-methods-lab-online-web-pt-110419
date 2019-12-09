@@ -5,8 +5,8 @@ class Song
 #  def initialize(song)
 #  end
 
-  def song.create
-  end
+#  def song.create
+#  end
   
   def self.all
     @@all
