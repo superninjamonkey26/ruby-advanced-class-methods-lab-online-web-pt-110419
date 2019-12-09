@@ -8,20 +8,14 @@ class Song
     self.class.all << self
   end
 
-
-
-
   def self.create
-  #  @@all
     song = self.new
     song.save
     song
   end
   
-#  def initialize(name)
-#    @name = name
-#    @@self << self
-#  end
+  
+  
   
   def self.new_by_name
   end
