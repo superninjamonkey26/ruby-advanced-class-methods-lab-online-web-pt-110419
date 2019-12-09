@@ -35,14 +35,14 @@ class Song
     self.find_by_name(name) || self.create_by_name(name)
   end
   
-  
-  
-  
-  
   def self.alphabetical
     
-    
   end
+  
+  
+  
+  
+  
   
   def self.new_from_filename
   end
@@ -52,18 +52,4 @@ class Song
   
   def self.destroy_all
   end
-  
-  
-#  def song
-#    @@song
-#  end
-  
-  def self.all
-    @@all
-  end
-
-  def save
-    self.class.all << self
-  end
-
 end
