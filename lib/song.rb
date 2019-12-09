@@ -40,7 +40,8 @@ class Song
   end
   
   def self.new_from_filename(filename)
-    split_filename = filename.slice(0, filename )
+   # split_filename = filename.slice(0, filename.length-4).split
+    split_filename = filename.chop.chop.chop.chop.split(" ")
   end
   
   
