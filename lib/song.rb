@@ -10,7 +10,7 @@ class Song
   end
   
   def song
-    @song
+    @@song
   end
   
   def self.all
