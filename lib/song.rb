@@ -12,7 +12,8 @@ class Song
 
 
   def self.create
-    @@all
+  #  @@all
+    new
   end
   
   def initialize(name)
