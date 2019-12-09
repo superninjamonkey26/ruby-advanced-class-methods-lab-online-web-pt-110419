@@ -6,6 +6,7 @@ class Song
 #  end
 
   def Song.create
+    @song = song
   end
   
   def self.all
