@@ -6,12 +6,12 @@ class Song
 #  end
 
   def Song.create
-    @@song = song
+    @@all = song
   end
   
-  def song
-    @@song
-  end
+#  def song
+#    @@song
+#  end
   
   def self.all
     @@all
