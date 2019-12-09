@@ -5,7 +5,7 @@ class Song
 #  def initialize(song)
 #  end
 
-  def Song.create
+  def slef.create
     @@all
   end
   
