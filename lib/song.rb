@@ -18,10 +18,10 @@ class Song
     song
   end
   
-  def initialize(name)
-    @name = name
-    @@self << self
-  end
+#  def initialize(name)
+#    @name = name
+#    @@self << self
+#  end
   
   def self.new_by_name
   end
