@@ -9,8 +9,8 @@ class Song
     @@all
   end
   
-  def initialize(song)
-    @song = song
+  def initialize(name)
+    @name = name
     @@all << self
   end
   
