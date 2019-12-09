@@ -18,7 +18,7 @@ class Song
   
   def initialize(name)
     @name = name
-    @@all << self
+    @@song << self
   end
   
   def self.new_by_name
